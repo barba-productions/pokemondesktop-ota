@@ -34,6 +34,7 @@
     .logo { width: min(240px, 70vw); height: auto; margin-bottom: 22px; }
     h1 { margin: 0; color: var(--yellow); font-size: clamp(2.4rem, 8vw, 4.4rem); letter-spacing: 0; }
     .byline { margin: 8px 0 30px; color: var(--muted); font: 600 0.9rem/1.4 Arial, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; }
+    .version { margin: -20px 0 26px; color: var(--yellow); font: 700 0.8rem/1.4 Arial, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; }
     .install-panel { width: min(100%, 430px); border-top: 4px solid var(--red); padding: 24px 0 0; }
     .install-panel p { margin: 0 0 20px; font: 400 1rem/1.55 Arial, sans-serif; }
     esp-web-install-button::part(button) {
@@ -56,6 +57,7 @@
     <img class="logo" src="assets/pokemon-logo.png" alt="Pokemon Desktop logo">
     <h1>Pokemon Desktop</h1>
     <p class="byline">Pokemon Desktop by Barba Productions</p>
+    <p class="version">Firmware version 1.0.1</p>
     <section class="install-panel" aria-label="Device installation">
       <p>Connect your Pokemon Desktop with a USB data cable, then install the first firmware.</p>
       <esp-web-install-button manifest="installer/manifest.json"></esp-web-install-button>
