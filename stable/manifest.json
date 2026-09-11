@@ -1,8 +1,8 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "firmwareUrl": "https://barba-productions.github.io/pokemondesktop-ota/stable/firmware.bin",
-  "sha256": "50c00ec00dd46735a7c2e79c3fdd48ba49821121333f4801eadcaf72a43e9ebf",
+  "sha256": "04ece474a16f74a89738ba357421c5b0fbb208e860c92b1751fcde43e93301ae",
   "model": "PokemonDesktop",
   "sku": "POKEMONDESKTOP_V1.0",
-  "size": 1399360
+  "size": 1399680
 }
